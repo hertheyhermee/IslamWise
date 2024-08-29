@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+const Footer = () => (
+  <footer className="text-center py-4">
+    <p>&copy; 2024 Jannah's Family & Friends. All rights reserved.</p>
+  </footer>
+);
 
-export default Footer
+export default Footer;
