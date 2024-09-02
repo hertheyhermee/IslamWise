@@ -5,6 +5,7 @@ import InheritanceBlog from "./pages/InheritanceBlog/InheritanceBlog";
 import Madhhab from "./pages/Madhhab/Madhhab";
 import Hadith from "./pages/Products/Hadith/Hadith";
 import Quran from "./pages/Products/Quran/Quran";
+import ZakatCalculator from "./pages/Products/ZakatCalculator/ZakatCalculator";
 
 const router = createBrowserRouter([
     {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
         element: <About />,
     },
     {
-        path: "/inheritance_blog",
+        path: "/inheritance-blog",
         element: <InheritanceBlog />,
     },
     {
@@ -24,12 +25,16 @@ const router = createBrowserRouter([
         element: <Madhhab />,
     },
     {
-        path: "/products/hadith",
+        path: "/features/hadith",
         element: <Hadith />,
     },
     {
-        path: "/products/quran",
+        path: "/features/quran",
         element: <Quran />,
+    },
+    {
+        path: "/features/zakat-calculator",
+        element: <ZakatCalculator />,
     },
     {
         path: "*",

@@ -1,16 +1,17 @@
 import React from 'react';
 import RightArrow from '../assets/right-arrow.svg'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-light backg-primary">
     <div className="container">
-      <a className="navbar-brand" href="/">
+      <Link className="navbar-brand" href="/">
         <img
-          src="/assets/images/logo.svg"
+          src="/src/assets/logos/IslamWiseLogo-bg.png"
           alt="Logo"
-          style={{ height: '163px', marginTop: '60px' }}
+          style={{ width: '150px', height: "80px", objectFit: 'contain' }}
         />
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -25,14 +26,14 @@ const Navbar = () => (
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">
+            <Link className="nav-link active text-light fs-6 fw-bold text-light" aria-current="page" href="/">
                Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item dropdown">
             <a
-              className="nav-link dropdown-toggle"
-              href="#"
+              className="nav-link dropdown-toggle fs-6 fw-bold text-light ms-md-4"
+              href=""
               id="productsDropdown"
               role="button"
               data-bs-toggle="dropdown"
@@ -42,120 +43,46 @@ const Navbar = () => (
             </a>
             <ul className="dropdown-menu" aria-labelledby="productsDropdown">
               <li>
-                <a className="dropdown-item" href="/nasheed">
-                  {/* <img
-                    src="/assets/images/right-arrow.svg"
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '} */}
+                <Link className="dropdown-item" to="/features/quran">
+                 
                   Quran
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="/books">
-                  {/* <img
-                    src=<RightArrow/>
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '} */}
+                <Link className="dropdown-item fs-6" to="/features/hadith">
+                 
                   Hadith
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="/familytalks">
-                  {/* <img
-                    src="/assets/right-arrow.svg"
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '} */}
+                <Link className="dropdown-item fs-6" to="features/zakat-calculator">
+                  
                   Zakat Calculator
-                </a>
+                </Link>
               </li>
-              {/* <li>
-                <a className="dropdown-item" href="/events">
-                  <img
-                    src="/assets/images/right-arrow.svg"
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '}
-                  Upcoming Events
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="/rws-subscribe">
-                  <img
-                    src="/assets/images/right-arrow.svg"
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '}
-                  Read With Salam
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="/fof-subscribe/about">
-                  <img
-                    src="/assets/images/right-arrow.svg"
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '}
-                  Friend Of The Family
-                </a>
-              </li> */}
+             
             </ul>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <Link className="nav-link fs-6 fw-bold text-light ms-md-4" to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <Link className="nav-link fs-6 fw-bold text-light ms-md-4" to="/inheritance-blog">
               Blog
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <Link className="nav-link fs-6 fw-bold text-light ms-md-4" to="/library">
               Madhab
-            </a>
+            </Link>
           </li>
-          {/* <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="servicesDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Services
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
-              <li>
-                <a className="dropdown-item" href="/events">
-                  <img
-                    src="/assets/images/right-arrow.svg"
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '}
-                  Upcoming Booking
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="/events#book">
-                  <img
-                    src="/assets/images/right-arrow.svg"
-                    alt="menu-item"
-                    style={{ width: '15px' }}
-                  />{' '}
-                  Event Booking
-                </a>
-              </li>
-            </ul>
-          </li> */}
+         
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <Link className="nav-link fs-6 fw-bold text-light ms-md-4" href="/about">
               Login
-            </a>
+            </Link>
           </li>
         
         </ul>
