@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import BackNav from "../../components/BackNav";
+import MadhabCategories from "../../components/MadhabCategories/MadhabCategories";
 
 const Madhhab = () => {
   return (
-    <div>Madhhab</div>
-  )
-}
+    <div>
+      <BackNav />
+      <MadhabCategories />
+    </div>
+  );
+};
 
-export default Madhhab
+export default Madhhab;
