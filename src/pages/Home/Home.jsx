@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Carousel from "../../components/carousel";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -9,8 +10,7 @@ const Home = () => {
       <Carousel/>
       <div className="container-fluid text-center my-5">
         <h3>
-          Jannah's Family &amp; Friends Engaging Animated Nasheeds &amp; Books
-          for Muslim Children
+          IslamWise your companion on the 
         </h3>
         <div className="row">
           <div className="col-md-4">
@@ -69,6 +69,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
