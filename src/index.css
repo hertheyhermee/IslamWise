@@ -1,3 +1,15 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "SUSE";
+}
 :root {
   --background-color: #fefefe;
   --primary-color: #f3a789;
