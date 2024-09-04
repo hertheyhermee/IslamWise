@@ -1,13 +1,12 @@
-import React from 'react';
-import RightArrow from '../assets/right-arrow.svg'
+
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg navbar-light backg-primary">
+  <nav className="navbar navbar-expand-lg navbar-light backg-primary position-fixed w-100" style={{zIndex: '1'}}>
     <div className="container">
       <Link className="navbar-brand" href="/">
         <img
-          src="/src/assets/logos/IslamWiseLogo-bg.png"
+          src="/src/assets/logos/ISLAMWISE_LOGO-removebg-preview (3).png"
           alt="Logo"
           style={{ width: '150px', height: "80px", objectFit: 'contain' }}
         />
