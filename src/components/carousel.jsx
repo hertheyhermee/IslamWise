@@ -42,12 +42,12 @@ const Carousel = () => {
         <div className="carousel-item active">
           <div className="d-flex justify-content-between align-items-center">
             <div>
-              <h1>Read With Salam</h1>
+              <h1>Welcome With Salam</h1>
               <h2>
-                And your little Muslims will develop their reading skills...
+                Where All Muslims can know more about Islam...
               </h2>
               <div className="d-flex">
-                <button className="btn btn-primary me-2">Subscribe Now</button>
+                <button className="btn btn-primary me-2">We welcome you all</button>
                 <button className="btn btn-light">Account Login</button>
               </div>
             </div>
