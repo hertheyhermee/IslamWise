@@ -16,7 +16,7 @@ import Navbar from "../../components/Navbar";
 
 const About = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); 
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
@@ -85,7 +85,7 @@ const About = () => {
           </div>
         </div>
         {/* how it started */}
-        <div className="container">
+        <div className="container ">
           <h1
             className="text-center pt-20 font-semibold"
             data-aos="zoom-in" // Add AOS animation
@@ -93,7 +93,7 @@ const About = () => {
             Islam Wise Is Bringing Deen To Your Doorstep
           </h1>
         </div>
-        <div className="container flex flex-col-reverse lg:flex-row my-20 gap-5">
+        <div className="container flex flex-col-reverse lg:flex-row my-20 gap-5 w-full mx-auto">
           <div
             className="w-full lg:w-1/2 flex items-center justify-center"
             data-aos="fade-left" // Add AOS animation
@@ -121,7 +121,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="container flex flex-col-reverse lg:flex-row my-20 gap-5">
+        <div className="container flex flex-col-reverse lg:flex-row my-20 gap-5 w-full mx-auto">
           <div
             className="w-full lg:w-1/2"
             data-aos="fade-right" // Add AOS animation
@@ -162,26 +162,25 @@ const About = () => {
           >
             <img src={hijab} alt="" className="rounded-lg" />
           </div>
-          
         </div>
         <div className="container my-5">
-        <h2 className="text-center font-semibold text-4xl">Our Mission</h2>
-        <div className="">
-        <p className="text-justify md:text-center text-base md:text-lg lg:text-xl ">
-          As a brand, we are more than just a single feature or application.
-          From prayer times, qibla, content to streaming, our features have
-          distinct propositions that add value to Muslim life. Since 2010, we
-          have pioneered the Muslim tech scene and built a digital home where
-          Muslims belong, whoever and wherever they are. Our pioneering platform
-          nurtures and enriches everyday experiences by collaborating with
-          trailblazing Muslims to champion and discover the latest trends,
-          moments, and ideas. We are diverse a bunch of individuals of different
-          nationalities across geographic regions. We are part of the Muslim
-          community and are committed to the cause of progressing Muslim life.
-        </p>
+          <h2 className="text-center font-semibold text-4xl">Our Mission</h2>
+          {/* <div className=" w-full mx-10">
+            <p className="text-justify md:text-center text-base md:text-lg lg:text-xl ">
+              As a brand, we are more than just a single feature or application.
+              From prayer times, qibla, content to streaming, our features have
+              distinct propositions that add value to Muslim life. Since 2010,
+              we have pioneered the Muslim tech scene and built a digital home
+              where Muslims belong, whoever and wherever they are. Our
+              pioneering platform nurtures and enriches everyday experiences by
+              collaborating with trailblazing Muslims to champion and discover
+              the latest trends, moments, and ideas. We are diverse a bunch of
+              individuals of different nationalities across geographic regions.
+              We are part of the Muslim community and are committed to the cause
+              of progressing Muslim life.
+            </p>
+          </div> */}
         </div>
-        </div>
-
       </div>
       {/* footer */}
       <div className="container mx-auto w-4/5 md:w-full py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-700">
