@@ -22,7 +22,7 @@ const About = () => {
   return (
     <>
       <div className="mx-auto w-4/5 md:w-full">
-        <Navbar />
+        {/* <Navbar /> */}
         <div>
           {/* video */}
           <video
