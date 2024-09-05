@@ -9,7 +9,7 @@ const MadhabCategories = () => {
         <div className="card col-md" style={{ width: "18rem" }}>
           <img src={image} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Imam Safi</h5>
+            <h5 className="card-title">Imam Shaf'ee</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -19,7 +19,7 @@ const MadhabCategories = () => {
         <div className="card col-md" style={{ width: "18rem" }}>
           <img src={image} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Imam 2</h5>
+            <h5 className="card-title">Imam Abu Hanifah</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -39,7 +39,7 @@ const MadhabCategories = () => {
         <div className="card col-md" style={{ width: "18rem" }}>
           <img src={image} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Imam Maliki</h5>
+            <h5 className="card-title">Imam Malik</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
