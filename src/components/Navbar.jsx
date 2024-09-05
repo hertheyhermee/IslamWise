@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg navbar-light backg-primary position-fixed w-100" style={{zIndex: '1'}}>
+  <nav className="navbar navbar-expand-lg navbar-light backg-primary position-fixed w-100" style={{zIndex: '999'}}>
     <div className="container">
       <Link className="navbar-brand" href="/">
         <img

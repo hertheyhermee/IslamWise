@@ -25,14 +25,14 @@ const QuranPage = () => {
   return (
     <div
       className="main-bg text-dark demo"
-      style={{
-        padding: "130px 10%",
-        position: "fixed",
-        zIndex: "-1",
-        height: "100vh",
-        width: "80%",
-        overflow: "hidden",
-      }}
+    //   style={{
+    //     padding: "130px 10%",
+    //     position: "fixed",
+    //     zIndex: "-1",
+    //     height: "100vh",
+    //     width: "80%",
+    //     overflow: "hidden",
+    //   }}
     >
       <div
         style={{
@@ -43,18 +43,18 @@ const QuranPage = () => {
           overflowY: "auto",
         }}
       >
-        <div className="border text-center">
+        <div className="text-center">
           <h1>{surah.englishName}</h1>
           <p>{surah.englishNameTranslation}</p>
           <p>Ayahs: {surah.numberOfAyahs}</p>
         </div>
-        <div>
+        <ul>
           {surah.ayahs.map((ayah) => (
-            <div key={ayah.numberInSurah}>
-              <p style={{ textAlign: "right" }}>{ayah.text}</p>
-            </div>
+            <li className="" key={ayah.numberInSurah} style={{padding: "18px", borderBottom: "1px solid #5F9EA0" }}>
+              <p style={{ textAlign: "right", fontSize: "22px", fontFamily: "" }}>{ayah.text}</p>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </div>
   );

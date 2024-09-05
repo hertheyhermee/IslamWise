@@ -1,9 +1,13 @@
-.sidebar-ul{
+.sidebar-ul {
     height: 550px;
     overflow-y: scroll;
     scroll-behavior: smooth;
     width: 250px;
     scrollbar-width: 3px;
+}
+.demo {
+    padding: 0px 10%;
+    margin-top: 100px;
 }
 ::-webkit-scrollbar {
     width: 12px; 
