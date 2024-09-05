@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 
 const Navbar = () => (
   // <nav className="navbar navbar-expand-lg navbar-light backg-primary position-fixed w-100" style={{zIndex: '999'}}>
