@@ -12,6 +12,7 @@ import {
   FaInstagram,
   FaTwitterSquare,
 } from "react-icons/fa";
+import Navbar from "../../components/Navbar";
 
 const About = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const About = () => {
   return (
     <>
       <div className="mx-auto w-4/5 md:w-full">
-        <h1 className="bg-red-500 text-center">Navbar to be imported here</h1>
+        {/* <Navbar /> */}
         <div>
           {/* video */}
           <video
