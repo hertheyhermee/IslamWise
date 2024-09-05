@@ -7,7 +7,7 @@ const Home = () => {
     <div className="">
       <Navbar />
       <Carousel/>
-      <section className="text-center my-5">
+      <div className="container-fluid text-center my-5">
         <h3>
           Jannah's Family &amp; Friends Engaging Animated Nasheeds &amp; Books
           for Muslim Children
@@ -16,7 +16,7 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card p-3">
               <img
-                src="/assets/images/music-note.svg"
+                src="src/assets/music-note.svg"
                 alt="nasheeds"
                 className="card-img-top"
               />
@@ -34,7 +34,7 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card p-3">
               <img
-                src="/assets/images/books.svg"
+                src="/src/assets/books.svg"
                 alt="books"
                 className="card-img-top"
               />
@@ -52,7 +52,7 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card p-3">
               <img
-                src="/assets/images/family.svg"
+                src="src/assets/family.svg"
                 alt="family fun"
                 className="card-img-top"
               />
@@ -68,7 +68,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
