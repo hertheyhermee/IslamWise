@@ -52,10 +52,10 @@ const About = () => {
           data-aos="fade-right"
         >
           <h5 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+           IslamWise your goto Muslim App to learn more about your Religion
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-            Biggest enterprise technology acquisitions in reverse chronological order.
+            The App consist of Basic Features like Qu'ran, Hadith, Zakat Calculator, Inheritance Blog and Madhab.
           </p>
         </div>
         <div
@@ -63,10 +63,10 @@ const About = () => {
           data-aos="fade-right"
         >
           <h5 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+          Islam the beautiful religion of peace
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-            Biggest enterprise technology acquisitions in reverse chronological order.
+          There are five pillars of Islam.And they are Eeman, Solat, Zakat (Alms giving) Ramadan (Fasting) and Hajj (Holy Pilgrimage).
           </p>
         </div>
         <div
@@ -74,10 +74,10 @@ const About = () => {
           data-aos="fade-right"
         >
           <h5 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+            Peace and Blessings Upon the Noble Prophet Muhammad S.A.W
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-            Biggest enterprise technology acquisitions in reverse chronological order.
+            Prophet Muhammad and other noble prophets are the messemgers of Allah S.W.T sent to mankind to deliver the teachings of Islam.
           </p>
         </div>
       </div>
@@ -85,18 +85,16 @@ const About = () => {
       {/* How It Started Section */}
       <div className="container mx-auto my-16 px-4">
         <h1 className="text-center font-semibold text-3xl lg:text-4xl mb-10" data-aos="zoom-in">
-          Islam Wise Is Bringing Deen To Your Doorstep
+          IslamWise Is Bringing Deen To Your Doorstep
         </h1>
         <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-16 items-center">
           <div className="w-full lg:w-1/2" data-aos="fade-left">
             <img src={couples} alt="Couples" className="rounded-lg w-full" />
           </div>
           <div className="w-full lg:w-1/2" data-aos="fade-right">
-            <h2 className="text-2xl lg:text-4xl font-bold mb-4">How it all began</h2>
+            <h2 className="text-2xl lg:text-4xl font-bold mb-4">Connecting Muslims to Knowledge and Understanding</h2>
             <p className="text-lg text-justify">
-              First of all, we are a family of 5, myself (Hanan), my husband (Abdul Malik), and our 3
-              children, Jannah, Abdusalaam, and Asiya. Our journey began several years ago when our
-              daughter Jannah began Junior kindergarten...
+            IslamWise was founded with the vision of closing the gap between Muslims from different walks of life and providing them with an accessible platform to deepen their understanding of Islam. Our aim is to foster unity, encourage learning, and promote the rich heritage of Islamic knowledge. Through resources such as Tafseer Quran, hadith, a zakat calculator, and an inheritance blog, we strive to make learning accessible to all, regardless of their background or level of knowledge.
             </p>
           </div>
         </div>
@@ -106,12 +104,9 @@ const About = () => {
       <div className="container mx-auto my-16 px-4">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center">
           <div className="w-full lg:w-1/2" data-aos="fade-right">
-            <h2 className="text-2xl lg:text-4xl font-bold mb-4">How it all began</h2>
+            <h2 className="text-2xl lg:text-4xl font-bold mb-4">Empowering Communities through Islamic Knowledge</h2>
             <p className="text-lg text-justify">
-              Jannah's Family and Friends is an animated series based loosely on the lives of our
-              family and friends. We produce animated nasheeds and books to inspire little Muslims.
-              Our content educates young Muslims about their relationship with Allah and the Prophet
-              Muhammad (PBUH)...
+            At IslamWise, our mission is to bridge the gap between Muslims by providing access to essential Islamic knowledge. Through carefully curated resources, including Tafseer, zakat calculation tools, and guidance on Islamic inheritance laws, we aim to make the teachings of Islam more accessible. Our journey began with a vision to educate, inspire, and unite Muslims in their spiritual growth, ensuring that everyone has the tools to learn and apply Islamic principles in their daily lives.
             </p>
           </div>
           <div className="w-full lg:w-1/2" data-aos="fade-left">
