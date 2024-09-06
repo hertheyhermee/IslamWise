@@ -129,7 +129,7 @@ const QuranPage = () => {
           <div className="text-center mb-6">
             <h1 className="text-3xl font-bold text-gray-900">{surah?.englishName}</h1>
             <p className="text-lg text-gray-600">{surah?.englishNameTranslation}</p>
-            <p className="text-gray-500">Number of Ayahs: {surah?.numberOfAyahs}</p>
+            {/* <p className="text-gray-500">Number of Ayahs: {surah?.numberOfAyahs}</p> */}
           </div>
 
           {/* Ayah list */}
