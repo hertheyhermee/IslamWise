@@ -21,7 +21,7 @@ const Sidebar = () => {
       <div>
         <ul className="sidebar-ul">
         {surahs.map((surah) => (
-          <Link to={`/features/quran/${surah.number}`} className="list-style-none links quran-bg" style={{listStyleType: "none !important"}} key={surah.number}>
+          <Link to={`/quran/${surah.number}`} className="list-style-none links quran-bg" style={{listStyleType: "none !important"}} key={surah.number}>
             <h1 className="fs-3 text-white">{surah.englishName}</h1>
             {/* <small className="text-decoration-none text-white">{surah.name}</small> */}
           </Link>

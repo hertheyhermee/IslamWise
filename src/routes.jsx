@@ -5,6 +5,7 @@ import InheritanceBlog from "./pages/InheritanceBlog/InheritanceBlog";
 import Madhhab from "./pages/Madhhab/Madhhab";
 import Hadith from "./pages/Products/Hadith/Hadith";
 import Quran from "./pages/Products/Quran/Quran";
+import ShowQuran from "./pages/Products/Quran/ShowQuran";
 import ZakatCalculator from "./pages/Products/ZakatCalculator/ZakatCalculator";
 import QuranPage from "./pages/Products/Quran/quranPage";
 
@@ -32,9 +33,13 @@ const router = createBrowserRouter([
   {
     path: "/features/quran",
     element: <Quran />,
+  },
+  {
+    path: "/quran",
+    element: <ShowQuran />,
     children: [
       {
-        path: "/features/quran/:id",
+        path: "/quran/:id",
         element: <QuranPage />,
       },
     ],

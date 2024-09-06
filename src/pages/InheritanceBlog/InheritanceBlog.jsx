@@ -4,6 +4,7 @@ import inheritance1 from "../../assets/inheritance3.webp";
 import inheritance2 from "../../assets/inheritance2.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Navbar from "../../components/Navbar";
 
 const InheritanceBlog = () => {
   useEffect(() => {
@@ -12,7 +13,9 @@ const InheritanceBlog = () => {
 
   return (
     <>
-      <div className="bg-red-500 text-center">navbar should here</div>
+      <div className="bg-red-500 text-center">
+        <Navbar />
+      </div>
       <div className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-y-16 lg:gap-x-24 text-lg items-center">
         <div className="lg:col-span-3">
           <h1 className="text-3xl md:text-4xl mb-8 lg:mb-10 text-accent-400 font-medium">
