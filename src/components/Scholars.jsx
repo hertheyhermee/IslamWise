@@ -20,31 +20,31 @@ const Scholars = () => {
             <img src={muslim1} className="w-16 -mt-14 rounded-3xl" alt="" />
             <h5 className="text-lg font-bold">Mukhtaar Tijani</h5>
             <p className="text-lg text-darkGrayishBlue text-center">
-              “For those interested in learning more about important religious
+              “ For those interested in learning more about important religious
               topics like Tawheed, fiqh ,Nahw and Sorfu, we encourage you to
-              reach out to Ustadh Mukhtaar. (+2348119018487). ”
+              reach out to Ustadh Mukhtaar. <br/>(+2348119018487). ”
             </p>
           </div>
 
           {/* Scholar 2 */}
           <div className="flex my-10 flex-col items-center p-6 space-y-6 rounded-lg bg-gray-300 md:flex md:w-1/3 shadow-2xl">
             <img src={muslim2} className="w-16 -mt-14 rounded-3xl" alt="" />
-            <h5 className="text-lg font-bold">Abdul-azeez Asafa</h5>
+            <h5 className="text-lg font-bold">Abdulazeez Asafa</h5>
             <p className="text-lg text-darkGrayishBlue text-center">
-              “You can reach out to Ustadh Abdul-azeez to learn more about quran
+              “ You can reach out to Ustadh Abdulazeez to learn more about quran
               recitations and hadeeth virtually in a simplified manner.
-              (+2348141847168)”
+              (+2348141847168) ”
             </p>
           </div>
 
           {/* Scholar 3 */}
           <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-300 md:flex md:w-1/3 shadow-2xl">
             <img src={muslim3} className="w-16 -mt-14 rounded-3xl" alt="" />
-            <h5 className="text-lg font-bold">Abdul-azeez Tiamiyu</h5>
+            <h5 className="text-lg font-bold">Abdulazeez Tiamiyu</h5>
             <p className="text-lg text-darkGrayishBlue text-center">
-              “Reach out with ustadh Abdul-azeez to learn more about
+              “ Reach out with ustadh Abdulazeez to learn more about
               Faraaid(inheritance), islamic literature and other related islamic
-              courses(+2348037967406).”
+              courses.(+2348037967406). ”
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Scholars = () => {
         <div className="my-16">
           <Link
             to="#"
-            className="p-3 px-6 pt-2 text-white bg-purple-700 rounded-full baseline hover:bg-brightRedLight"
+            className="p-3 px-6 pt-3 inline-block mt-4  dark:bg-gray-900 py-4 text-white text-base md:text-lg font-semibold hover:bg-accent-600 transition-all rounded-lg shadow-md"
           >
             Get Started
           </Link>

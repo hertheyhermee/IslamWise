@@ -86,9 +86,9 @@ const InheritanceBlog = () => {
             <div>
               <Link
                 to="https://athaqafahaorg.substack.com/p/medical-forensic-evidence-and-its"
-                className="inline-block mt-4 bg-accent-500 px-6 py-4 text-purple-800 text-base md:text-lg font-semibold hover:bg-accent-600 transition-all"
+                className="inline-block mt-4  dark:bg-gray-900 px-6 py-4 text-white text-base md:text-lg font-semibold hover:bg-accent-600 transition-all rounded-lg shadow-md text-center"
               >
-               Click here to Explore More
+                Explore More
               </Link>
             </div>
           </div>
