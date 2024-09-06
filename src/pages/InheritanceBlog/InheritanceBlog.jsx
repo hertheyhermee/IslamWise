@@ -64,7 +64,7 @@ const InheritanceBlog = () => {
 
         <div className="lg:col-span-3">
           <h1 className="text-3xl md:text-4xl mb-8 lg:mb-10 text-accent-400 font-medium">
-            Learning The Islamic Inheritance Through Blogz
+            Learning The Islamic Inheritance Through Blog
           </h1>
 
           <div className="space-y-6 md:space-y-8">
@@ -88,7 +88,7 @@ const InheritanceBlog = () => {
                 to="https://athaqafahaorg.substack.com/p/medical-forensic-evidence-and-its"
                 className="inline-block mt-4 bg-accent-500 px-6 py-4 text-purple-800 text-base md:text-lg font-semibold hover:bg-accent-600 transition-all"
               >
-               Click here to Explore More on inheritance
+               Click here to Explore More
               </Link>
             </div>
           </div>
