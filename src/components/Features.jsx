@@ -8,11 +8,14 @@ const Features = () => {
         {/* What's Different */}
         <div className="flex flex-col space-y-12 md:w-1/2">
           <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
-            What's different about Islam_Wise?
+            What's different about IslamWise?
           </h2>
           <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            corrupti aperiam, voluptatum fuga laborum adipisci omnis. 
+            Islamwise is dedicated to bridging the gap between Muslims by
+            offering resources that promote understanding across various schools
+            of thought. We provide a platform for learning through features like
+            Tafseer Quran, a comprehensive Zakat calculator, and guidance on
+            Islamic inheritance laws.
           </p>
         </div>
 
@@ -27,8 +30,7 @@ const Features = () => {
                   01
                 </div>
                 <h3 className="text-base font-bold md:mb-4 md:hidden">
-                Track Your Deen progress
-
+                  Track Your Deen progress
                 </h3>
               </div>
             </div>
@@ -37,9 +39,8 @@ const Features = () => {
               <h3 className="hidden mb-4 text-lg font-bold md:block">
                 Track Your Deen progress
               </h3>
-              <p className="text-darkGrayishBlue">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              corrupti aperiam, voluptatum fuga laborum adipisci omnis.
+              <p className="text-center text-darkGrayishBlue md:text-left">
+                Islamwise is a platform designed to enhance understanding and unity within the Muslim community. 
               </p>
             </div>
           </div>
@@ -63,8 +64,8 @@ const Features = () => {
                 Advanced built-in reports
               </h3>
               <p className="text-darkGrayishBlue">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              corrupti aperiam, voluptatum fuga laborum adipisci omnis
+                Through our tools like the
+                Tafseer Quran, Hadith, inheritance blog, Madhab and Zakat calculator.
               </p>
             </div>
           </div>
@@ -88,8 +89,9 @@ const Features = () => {
                 Everything you need in one place
               </h3>
               <p className="text-darkGrayishBlue">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              corrupti aperiam, voluptatum fuga laborum adipisci omnis.
+                We aim to
+                simplify complex Islamic teachings and bring them to life for
+                both new and practicing Muslims.
               </p>
             </div>
           </div>
