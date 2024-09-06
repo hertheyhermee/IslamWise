@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bgVideo from "../../assets/bgVid.mp4";
+import bgVideo from "../../assets/iraqi.mp4";
 import couples from "../../assets/couples2.webp";
 import hijab from "../../assets/hijab.webp";
 import AOS from "aos";
