@@ -5,6 +5,7 @@ import inheritance2 from "../../assets/inheritance2.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "../../components/Navbar";
+import { Link } from "react-router-dom";
 
 const InheritanceBlog = () => {
   useEffect(() => {
@@ -83,12 +84,12 @@ const InheritanceBlog = () => {
             </p>
 
             <div>
-              <a
-                href="https://athaqafahaorg.substack.com/p/medical-forensic-evidence-and-its"
-                className="inline-block mt-4 bg-accent-500 px-6 py-4 text-primary-800 text-base md:text-lg font-semibold hover:bg-accent-600 transition-all"
+              <Link
+                to="https://athaqafahaorg.substack.com/p/medical-forensic-evidence-and-its"
+                className="inline-block mt-4 bg-accent-500 px-6 py-4 text-purple-800 text-base md:text-lg font-semibold hover:bg-accent-600 transition-all"
               >
-                Explore More on inheritance
-              </a>
+               Click here to Explore More on inheritance
+              </Link>
             </div>
           </div>
         </div>
