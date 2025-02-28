@@ -7,7 +7,7 @@ import Hadith from "./pages/Products/Hadith/Hadith";
 import Quran from "./pages/Products/Quran/Quran";
 import ShowQuran from "./pages/Products/Quran/ShowQuran";
 import ZakatCalculator from "./pages/Products/ZakatCalculator/ZakatCalculator";
-import QuranPage from "./pages/Products/Quran/quranPage";
+import QuranPage from "./pages/Products/Quran/QuranPage";
 
 const router = createBrowserRouter([
   {
